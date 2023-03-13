@@ -31,10 +31,63 @@ copyright: false
 footer: Theme by <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-<!-- <Count /> -->
+## レコーダー
 
-This is an example of a project homepage. You can place your main content here.
+## 初期設定
 
-To use this layout, you need to set `home: true` in the page front matter.
+## 機能の説明
 
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://vuepress-theme-hope.github.io/v2/guide/layout/home/).
+## 録画設定
+
+## 録画再生、バックアップ
+
+  <div class="headline-wrapper">
+    <div class="headline-item">
+    録画再生の方法
+    </div>
+    <div class="headline-item">
+    USB、外付けHDDへの録画バックアップ方法
+    </div>
+    <div class="headline-item">
+    UMSを使った録画バックアップ方法
+    </div>
+  </div>
+
+## 各種設定
+
+<!-- <Headline /> -->
+
+## 便利機能
+
+<style>
+.headline-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.headline-item {
+  position: relative;
+  flex-basis: calc(32% - 3rem);
+  margin: 0.5rem;
+  padding: 1rem;
+  color: var(--text-color);
+  border: solid;
+  border-radius: 0.5rem;
+  transition: background var(--color-transition),
+    box-shadow var(--color-transition), transform var(--transform-transition);
+}
+.headline-item:hover {
+  color: var(--theme-color);
+  border-color: var(--theme-color);
+  cursor: pointer;
+}
+.headline-item.link {
+}
+@media screen and (max-width: 768px) {
+    .headline-item {
+        flex-basis: calc(48% - 3rem);
+    }
+}
+</style>

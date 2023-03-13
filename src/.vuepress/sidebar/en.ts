@@ -35,17 +35,17 @@ export const enSidebar = sidebar({
       children: [
         'recorder-basic-overview',
         {
-          text: '１初めの操作',
+          text: '１.スタートアップガイド',
           icon: 'paperclip',
           children: ['recorder-first-operation'],
         },
         {
-          text: '２リアルタイムでの監視',
+          text: '２.リアルタイムでの監視',
           icon: 'paperclip',
           children: ['recorder-monitor-realtime'],
         },
         {
-          text: '３録画方法の選択',
+          text: '３.録画方法の選択',
           icon: 'paperclip',
           children: [
             'record01-introduce',
@@ -56,17 +56,17 @@ export const enSidebar = sidebar({
           ],
         },
         {
-          text: '４録画の再生',
+          text: '４.録画の再生',
           icon: 'paperclip',
           children: ['recorder-play-overview', 'recorder-play02-howto'],
         },
         {
-          text: '５録画のバックアップ',
+          text: '５.録画のバックアップ',
           icon: 'paperclip',
           children: ['backup02-hdd', 'backup03-usb'],
         },
         {
-          text: '６メンテナンス',
+          text: '６.メンテナンス',
           icon: 'paperclip',
           children: [
             'recorder-ntp-adjust',

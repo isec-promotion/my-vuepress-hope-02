@@ -15,7 +15,7 @@
     "@vuepress/plugin-docsearch": "github:isec-promotion/plugin-docsearch",
     "@vuepress/plugin-register-components": "^1.9.9",
     "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.61",
+    "vuepress": "^2.0.0-beta.61",
     "vuepress-theme-hope": "2.0.0-beta.185"
   }
 }

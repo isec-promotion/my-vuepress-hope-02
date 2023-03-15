@@ -1,4 +1,4 @@
-# 録画方法の種類と特徴
+# 録画方法の種類と特徴 テスト
 
 ![](./images/record-introduction/001.jpg)
 

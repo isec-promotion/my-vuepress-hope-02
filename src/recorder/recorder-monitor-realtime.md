@@ -1,4 +1,4 @@
-# リアルタイムでの監視
+# 画面表示アイコンの説明
 
 ![](./images/monitor-realtime/001.jpg)
 

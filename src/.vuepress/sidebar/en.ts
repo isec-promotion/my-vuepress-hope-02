@@ -37,18 +37,26 @@ export const enSidebar = sidebar({
         {
           text: '１.スタートアップガイド',
           icon: 'paperclip',
-          children: ['recorder-first-operation'],
+          children: [
+            'recorder-first-operation',
+            'function06-ip-camera',
+            'recorder-p2p',
+            'faq05-remote-viewer',
+          ],
         },
         {
-          text: '２.リアルタイムでの監視',
-          icon: 'paperclip',
-          children: ['recorder-monitor-realtime'],
-        },
-        {
-          text: '３.録画方法の選択',
+          text: '２.機能の説明',
           icon: 'paperclip',
           children: [
+            'recorder-monitor-realtime',
             'record01-introduce',
+            
+        ],
+        },
+        {
+          text: '３.録画設定',
+          icon: 'paperclip',
+          children: [
             'record02-sensor',
             'record03-motion',
             'record04-schedule',
@@ -56,22 +64,33 @@ export const enSidebar = sidebar({
           ],
         },
         {
-          text: '４.録画の再生',
-          icon: 'paperclip',
-          children: ['recorder-play-overview', 'recorder-play02-howto'],
-        },
-        {
-          text: '５.録画のバックアップ',
-          icon: 'paperclip',
-          children: ['backup02-hdd', 'backup03-usb'],
-        },
-        {
-          text: '６.メンテナンス',
+          text: '４.録画再生、バックアップ',
           icon: 'paperclip',
           children: [
+            'recorder-play02-howto',
+            'backup02-hdd',
+            'backup03-usb',
+        ],
+        },
+        {
+          text: '５.各種設定',
+          icon: 'paperclip',
+          children: [ 
             'recorder-ntp-adjust',
             'faq04-ntp',
             'faq-upgrade-firmware',
+            'faq01-password',
+            'recorder-log-message',
+          ],
+        },
+        {
+          text: '６.便利機能',
+          icon: 'paperclip',
+          children: [
+            'function-ip-connection',
+            'function05-sound',
+            'function04-mail',
+            
           ],
         },
       ],
@@ -86,9 +105,7 @@ export const enSidebar = sidebar({
           text: '遠隔監視',
           icon: 'paperclip',
           children: [
-            'faq05-remote-viewer',
             'function-ip-connection',
-            'recorder-p2p',
             'recorder-dijital-zoom',
             'function-spot-monitoring',
           ],
